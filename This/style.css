@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border : 1px solid black;
+    transition: all 0.3s;
+}
+
+.open {
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.opening {
+    background-color: black;
+}

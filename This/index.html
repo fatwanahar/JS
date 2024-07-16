@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>This</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>This</h1>
+      <p>
+        The <span class="highlight">this</span> keyword refers to the object it
+        belongs to.
+      </p>
+      <p>It has different values depending on where it is used:</p>
+      <ul>
+        <li>
+          In a method, <span class="highlight">this</span> refers to the owner
+          object.
+        </li>
+        <li>
+          Alone, <span class="highlight">this</span> refers to the global
+          object.
+        </li>
+        <li>
+          In a function, <span class="highlight">this</span> refers to the
+          global object.
+        </li>
+        <li>
+          In a function, in strict mode, <span class="highlight">this</span> is
+          <span class="highlight">undefined</span>.
+        </li>
+        <li>
+          In an event, <span class="highlight">this</span> refers to the element
+          that received the event.
+        </li>
+      </ul>
+      <p>
+        The value of <span class="highlight">this</span> is defined at runtime.
+      </p>
+    </div>
+    <p>Example</p>
+    <div class="container">
+      <p>When used alone, this refers to the global object.</p>
+      <button onclick="this.style.display='none'">Click me to hide</button>
+    </div>
+    <p>Another Example</p>
+    <p>Hover the box</p>
+    <div class="box"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

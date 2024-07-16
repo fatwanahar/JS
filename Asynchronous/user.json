@@ -1,0 +1,33 @@
+[
+    {
+        "nama": "John Doe",
+        "umur": 30,
+        "pekerjaan": "Web Developer",
+        "alamat": {
+        "jalan": "Jl. Arnold Mononutu",
+        "kota": "Minahasa",
+        "provinsi": "Sulawesi Utara"
+        }
+    },
+    {
+        "nama": "Stenly Adam",
+        "umur": 35,
+        "pekerjaan": "Network Engineer",
+        "alamat": {
+        "jalan": "Jl. Jenderal Sudirman",
+        "kota": "Manado",
+        "provinsi": "Sulawesi Utara"
+        }
+    },
+    {
+        "nama": "Jane Doe",
+        "umur": 25,
+        "pekerjaan": "UI/UX Designer",
+        "alamat": {
+        "jalan": "Jl. Wolter Monginsidi",
+        "kota": "Manado",
+        "provinsi": "Sulawesi Utara"
+        }
+    }
+]
+
