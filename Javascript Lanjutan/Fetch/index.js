@@ -1,6 +1,34 @@
-const searchButton = document.querySelector(".search-button")
+const searchButton = document.querySelector(".search-button");
 
+searchButton.addEventListener("click", function () {
+  let keyword = document.querySelector(".input-keyword");
+  fetch("http://www.omdbapi.com/?apikey=90f9c5b8&s=" + keyword.value)
+    .then((response) => response.json())
+    .then((response) => {
+      const movies = response.Search;
+      let card = "";
+      const cardContainer = document.querySelector("#cardSection");
+      movies.forEach((movie) => {
+        card += cardMovie(movie);
+      });
+      cardContainer.innerHTML = card;
 
+      // bila button detail di klik
+      const detailButton = document.querySelectorAll(".detail-button");
+      detailButton.forEach((btn) => {
+        btn.addEventListener("click", function () {
+          let imdbId = btn.dataset.imdbid;
+          // console.log(imdbId);
+          fetch("http://www.omdbapi.com/?apikey=90f9c5b8&i=" + imdbId)
+            .then((response) => response.json())
+            .then((m) => {
+              const modal = document.querySelector(".modal-body");
+              modal.innerHTML = detailMovie(m);
+            });
+        });
+      });
+    });
+});
 
 function cardMovie(movie) {
   return `<div class="col-md-4 my-3">
