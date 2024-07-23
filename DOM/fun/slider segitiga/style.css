@@ -1,0 +1,47 @@
+/* clearing default style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* bootstrap body */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  padding : 20px;
+}
+
+/* make bootstrap h1 */
+h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #333;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+}
+
+/* boostrap slider */
+.slider {
+  width: 20%;
+  height: 20px;
+  margin: 0 auto;
+  position: relative;
+  background: #eee;
+  /* border-radius: 5px; */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* bootstrap p */
+p {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #333;
+  margin: 0 0 0.5em 0;
+  text-align: center;
+}
