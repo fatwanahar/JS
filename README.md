@@ -5,3 +5,4 @@
   - https://www.youtube.com/playlist?list=PLFIM0718LjIWB3YRoQbQh82ZewAGtE2-3 (javascipt DOM)
   - https://www.youtube.com/playlist?list=PLFIM0718LjIUGpY8wmE41W7rTJo_3Y46- (javascript lanjut)
 - Dari web dicoding
+- Dari [Freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
